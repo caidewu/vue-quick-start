@@ -1,29 +1,24 @@
 # vue-quick-start
 
-## Project setup
+> 基于Element的PC端项目快速开发模版
+
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行项目
 ```
-npm run serve
+npm start
 ```
 
-### Compiles and minifies for production
+### 编译正式版
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
+### 代码风格检查
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
