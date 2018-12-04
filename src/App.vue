@@ -3,22 +3,27 @@
     <div>
       <p>
         If Element is successfully added to this project, you'll see an
-        <code v-text="'<el-button>'"></code>
+        <code v-text="'<el-button>'" />
         below
       </p>
-      <el-button size="small">el-button</el-button>
+      <ElButton size="small">
+        el-button
+      </ElButton>
+      <VcHeader />
     </div>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
+import VcHeader from 'vc-header';
 
 export default {
-  name: 'app',
-  // components: {
-  //   HelloWorld,
-  // },
+  name: 'App',
+  components: {
+    // HelloWorld,
+    VcHeader,
+  },
 };
 </script>
 
